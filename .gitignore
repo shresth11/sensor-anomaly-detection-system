@@ -1,0 +1,36 @@
+# Compiled Java class files
+*.class
+
+# Maven build outputs
+backend/target/
+target/
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+pom.xml.next
+release.properties
+
+# Logs
+*.log
+backend/*.log
+
+# Node dependencies and build artifacts
+frontend/node_modules/
+frontend/dist/
+frontend/.vite/
+node_modules/
+dist/
+
+# IDE and Editor files
+.idea/
+*.iml
+.vscode/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# OS generated files
+.DS_Store
+Thumbs.db
